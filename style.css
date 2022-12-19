@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#cuadrado{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background-color: brown;
+	animation: muevete 5s infinite;
+	position: relative;
+}
+
+@keyframes muevete{
+	0%{left: 0px;}
+	50%{left: 200px; background-color: black;}
+	100%{left: 900px; background-color: #18ab29;}
+}
+
+
+
+
+/* Coder Button */
+
+.coder__button {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:block;
+    position: relative;
+    width: 200px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+    text-align: center;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+    margin: 0 auto;
+	animation: saltarin 2s infinite;
+    
+}
+
+@keyframes saltarin{
+	0%{top: 0px;}
+	50%{top: 10px; background-color: black;}
+	100%{top: 0px;}
+}
+
+.coder__button:hover {
+	background-color:#5cbf2a;
+	transform: scale(1,3);
+	transition: 0,3s;
+}
+
+
